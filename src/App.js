@@ -33,7 +33,10 @@ function App() {
               from = accounts[0]
               console.log(from)
             }
-            if(error) console.error(error)
+            if(error) {
+              console.log('catch error!')
+              console.error(error)
+            }
           })
         }}>Get Accounts</button>
         <button style={{fontSize:20}} onClick={()=> {
