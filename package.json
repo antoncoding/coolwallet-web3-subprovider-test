@@ -11,7 +11,7 @@
     "react-scripts": "3.3.0",
     "web3": "^1.2.4",
     "web3-provider-engine": "^15.0.4",
-    "@coolwallets/web3-subprovider": "file:../coolwalletsjs/packages/web3-subprovider"
+    "@coolwallets/web3-subprovider": "^0.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
